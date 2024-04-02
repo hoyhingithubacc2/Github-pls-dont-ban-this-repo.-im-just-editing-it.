@@ -23,7 +23,7 @@
         });
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/Shploop/Blooket-Cheats/main/autoupdate/timestamps/global/intervals/highlightAnswers.png" + Date.now();
+    img.src = null
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");
